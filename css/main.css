@@ -1,0 +1,83 @@
+.icon-sprite, .icon-1, .icon-10, .icon-11, .icon-12, .icon-13, .icon-14, .icon-2, .icon-3, .icon-4, .icon-5, .icon-6, .icon-7, .icon-8, .icon-9 {
+  background-image: url('../img/icon-s82718839c0.png');
+  background-repeat: no-repeat;
+}
+
+.icon-1 {
+  background-position: 0 0;
+}
+
+.icon-10 {
+  background-position: -714px 0;
+}
+
+.icon-11 {
+  background-position: -1428px 0;
+}
+
+.icon-12 {
+  background-position: -2142px 0;
+}
+
+.icon-13 {
+  background-position: -2856px 0;
+}
+
+.icon-14 {
+  background-position: -3570px 0;
+}
+
+.icon-2 {
+  background-position: -4284px 0;
+}
+
+.icon-3 {
+  background-position: -4998px 0;
+}
+
+.icon-4 {
+  background-position: -5712px 0;
+}
+
+.icon-5 {
+  background-position: -6426px 0;
+}
+
+.icon-6 {
+  background-position: -7140px 0;
+}
+
+.icon-7 {
+  background-position: -7854px 0;
+}
+
+.icon-8 {
+  background-position: -8568px 0;
+}
+
+.icon-9 {
+  background-position: -9282px 0;
+}
+
+h2 {
+  text-align: center;
+  font-family: cursive;
+}
+
+container {
+  position: relative;
+}
+container .icon-animation {
+  width: "714px";
+  height: "768px";
+  background: url("../img/icon-s82718839c0.png") left center;
+  animation: play 2s steps(14) infinite;
+  padding: 60% 80%;
+  background-repeat: no-repeat;
+}
+
+@keyframes play {
+  100% {
+    background-position: -9996px center;
+  }
+}
